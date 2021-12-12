@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Social Media
+title: Social Media Bad
 nav_order: 1
 has_children: false
 parent: Thoughtful Ramblings
