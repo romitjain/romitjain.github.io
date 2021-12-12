@@ -20,7 +20,7 @@
 
 title: Romit
 description: My second brain!
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "romitjain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
