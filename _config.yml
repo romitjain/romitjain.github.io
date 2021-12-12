@@ -26,6 +26,7 @@ permalink: pretty
 
 # Build settings
 theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
