@@ -5,4 +5,4 @@ nav_order: 3
 has_children: true
 ---
 
-I'll share some of my rambings here!
+Here, I'll share some of my random rambings that occupy my mind space.
