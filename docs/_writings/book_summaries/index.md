@@ -5,4 +5,4 @@ nav_order: 2
 has_children: true
 ---
 
-I'll share learnings from the book I read here!
+Here, I'll share the learnings from the books I read.

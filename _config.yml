@@ -20,8 +20,8 @@
 
 title: Romit
 description: My second brain!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "romitjain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: "https://romitjain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 # Build settings
@@ -91,7 +91,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Back to top link
-back_to_top: true
+back_to_top: false
 back_to_top_text: "Back to top"
 
 # Footer last edited timestamp
@@ -99,9 +99,9 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Set a path/url to a logo that will be displayed instead of the title
-# logo: "/assets/images/memoji.PNG"
+logo: "/assets/images/memoji.PNG"
 
-collections_dir: collections
+collections_dir: docs
 
 collections:
   writings:
