@@ -27,8 +27,10 @@ permalink: pretty
 # Build settings
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
+markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -99,7 +101,7 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/memoji.PNG"
+# logo: "/assets/images/memoji.PNG"
 
 collections_dir: docs
 

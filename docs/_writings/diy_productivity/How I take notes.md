@@ -6,6 +6,10 @@ has_children: false
 parent: DIY Productivity
 ---
 
+1. TOC
+{:toc}
+
+## Intro
 There are multiple ways to take notes. But after reading a lot on this topic and practicing note taking for almost 8 years, I realize that having a good system of accumulating notes on relevant topics is far more important than noting things down for storing purposes.
 
 The tools we use are irrelevant. What we need is a system of taking useful and long lasting notes and making sure that we don't let incomplete, useless and transient notes pile up. I do believe that taking notes digitally is more scalable and secure.
