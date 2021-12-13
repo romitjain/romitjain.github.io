@@ -6,4 +6,7 @@ has_children: false
 parent: Thoughtful Ramblings
 ---
 
+1. TOC
+{:toc}
+
 TBA

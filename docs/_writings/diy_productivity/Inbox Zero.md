@@ -6,4 +6,7 @@ has_children: false
 parent: DIY Productivity
 ---
 
+1. TOC
+{:toc}
+
 TBA
