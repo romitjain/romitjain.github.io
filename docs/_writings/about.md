@@ -9,18 +9,18 @@ Hello! I am Romit. I love building data driven tools and products. I have ~4 yea
 
 ## A bit about my experience:
 - [November 2020-Present]
-    - I am currently working at [epiFi](https://www.fi.money) where I am working on a cool Computer vision problem that serves ~10K users per day
-    - Also working on internal tools for better logging module, segmentation and growth analysis of users
+    - I am currently working at [epiFi](https://www.fi.money) where I am working on a cool Computer vision problem that serves ~10K users per day.
+    - Also working on building better logging module for data scientists, and framework for segmentation and growth analysis of users.
 - [January 2018-November 2020]
-    - I worked at [Postman](https://www.postman.com) as a Technical lead in the data science team
-    - I started my career at Postman as a data science intern and during my internship I worked on network analysis on a graph database
-    - I built and designed several internal tools including data APIs, data testing framework, ETL pipelines and knowledge repository
-    - I also built warehouse connector for feature engineering but that didn't scale really well
-- I have worked as a volunteer engineer with [Omdena](https://omdena.com/) and [DataKind](https://www.datakind.org/) on several projects for societal good
+    - I worked at [Postman](https://www.postman.com) as a Technical lead in the data science team.
+    - I started my career at Postman as a data science intern and during my internship I worked on network analysis of 2M users on a graph database.
+    - I built and designed several internal tools including data APIs, data testing framework, ETL pipelines and [knowledge repository](https://blog.postman.com/how-postman-built-a-knowledge-repository/).
+    - I also built warehouse connector for feature engineering but that didn't scale really well.
+- I have volunteered for tech roles with [Omdena](https://omdena.com/) and [DataKind](https://www.datakind.org/) on several projects for societal good
     - I was on the team that built project [Panoptic](https://panoptic.in)
 
 ## A bit about what I love doing:
-- Tech I love working with: Python, SQL, Tensorlfow, Docker
+- Tech I love working with: Python, SQL, Tensorlfow, Docker, neo4j
 - Areas I am interested in
     - Applied machine learning and deep learning
         - Computer Vision, Network Science
