@@ -9,9 +9,9 @@ print('Hello World!')
 
 Printing hello world seems a fitting introductory page to a `(almost)` dev's website.
 
-Hi, I am Romit. I have created this website to share some of my ideas/ramblings. These are sometimes unfinished and evolves continuosly. I have two major goals with this website
+Hi, I am Romit. I have created this website to share some of my ideas/ramblings. These are sometimes unfinished and evolves continuously. I have two major goals with this website
 1. Crystallize my thought process. Writing helps in this.
-2. Share my learnings and failures. A way for giving back to the internet (from where I have learned almost everything!).
+2. Share my learning and failures. A way for me to give back to the internet (from where I have learned almost everything!).
 
 You can learn more about me [here]({% link _writings/about.md %}) or start by reading some of my tips [here]({% link _writings/diy_productivity/index.md %}).
 
