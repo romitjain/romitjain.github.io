@@ -22,14 +22,15 @@ I won't delve into the philosophy of why you need Inbox zero or how it can help.
 Let me preface this article by mentioning a few important things:
 
 1. I am not an ultra-busy person who receives 100s of emails every day.
-2.  While on the path to Inbox zero, categorization of mails help. More than anything, I do it because of my love of organizing stuff.
-3.  I use Gmail. My system works on Gmail, but I haven't tested it on other mail providers.
-4.  This article is going to be action-oriented.
+2. While on the path to Inbox zero, categorization of mails help. More than anything, I do it because of my love of organizing stuff.
+3. I use Gmail. My system works on Gmail, but I haven't tested it on other mail providers.
+4. This article is going to be action-oriented.
 
 ## General principles
-1.  Most of the work should be automated
-2.  Don't lose emails permanently
-3.  Auto categorization helps
+
+1. Most of the work should be automated
+2. Don't lose emails permanently
+3. Auto categorization helps
 
 ## Procedure
 
@@ -44,6 +45,7 @@ Read [this](https://support.google.com/mail/answer/6579?hl=en) on how to create 
 I use filters in Gmail heavily to move my mails directly to Archive (where they stay for eternity) neatly categorized into broad categories automatically. 95% of my mails are auto categorized using these filters. These are usually just updates or transaction mails that I don't need to look at every day but need to keep for the record.
 
 Most of the mails I receive falls into these broad categories
+
 - Bills and receipts (Utility bills, Subscription receipts, etc.)
 - Shopping updates (Delivery, Amazon, etc.)
 - Bank and investment updates (Credit & debit mails, investments to mutual funds, stocks, etc.)
@@ -55,20 +57,22 @@ I have created a filter for each category
 - I have added predefined domains that fall into each category. For example All mails from `@amazon.in` fall into the Shopping category
 - I have added additional action based on the category. For example, I mark all mails in Shopping as read and move them to Archive automatically so that they don't clutter my inbox
 - My Shopping filter looks something like this
-- 
-	```
-	Matches: from:(@amazon.in OR @amazon.com OR @flipkart.com OR @myntra.com OR @cashkaro.com OR @dominos.co.in OR @reliancedigital.in)
-	
-	Do this: Skip Inbox, Mark as read, Apply label "Shopping"
-	```
+
+- ```text
+    Matches: from:(@amazon.in OR @amazon.com OR @flipkart.com OR @myntra.com OR @cashkaro.com OR @dominos.co.in OR @reliancedigital.in)
+
+    Do this: Skip Inbox, Mark as read, Apply label "Shopping"
+    ```
+
 - We rarely need to read every shopping update.
-- Based on the category I sometimes configure the filter to move the mail to their category but keep them as unread. This can be useful for some important emails from Banks    
+- Based on the category I sometimes configure the filter to move the mail to their category but keep them as unread. This can be useful for some important emails from Banks.
 - Creating these filters will take some time, but in the long run, they will auto categorize most of your mails and move them away from your inbox
 - Remember to keep updating the filter addresses as you start using more and more services
 
 ### Use snooze
 
 Read about the snooze feature in Gmail [here](https://support.google.com/mail/answer/7622010?hl=en&co=GENIE.Platform%3DDesktop).
+
 - The filters take care of 95% of my emails. For the rest of my mails, I do either of these things
 - If I have to spend a lot of time in the mail (newsletter or get some work done before replying), I snooze the mail to resurface at an appropriate time.
 - For example, I snooze all the newsletters that I receive to weekend and read them in one go
@@ -91,5 +95,5 @@ Here’s a snapshot of mails that are auto categorized by filters and moved to A
 ![image](/assets/images/emails.jpeg)
 
 ## Reference
-- I was inspired to write this article after reading one by Dr. Devi Parikh [here](https://deviparikh.medium.com/checking-email-to-inbox-zero-e00d478cdd4b)
 
+- I was inspired to write this article after reading one by Dr. Devi Parikh [here](https://deviparikh.medium.com/checking-email-to-inbox-zero-e00d478cdd4b)

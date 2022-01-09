@@ -7,10 +7,12 @@ has_children: false
 
 Hello! I am Romit. I love building data driven tools and products. I have ~4 years of work experience in making companies data-driven and building production level ML/DL models.
 
-## A bit about my experience:
+## A bit about my experience
+
 - [November 2020-Present]
     - I am currently working at [epiFi](https://www.fi.money) where I am working on a cool Computer vision problem that serves ~10K users per day.
     - Also working on building better logging module for data scientists, and framework for segmentation and growth analysis of users.
+
 - [January 2018-November 2020]
     - I worked at [Postman](https://www.postman.com) as a Technical lead in the data science team.
     - I started my career at Postman as a data science intern and during my internship I worked on network analysis of 2M users on a graph database.
@@ -20,6 +22,7 @@ Hello! I am Romit. I love building data driven tools and products. I have ~4 yea
     - I was on the team that built project [Panoptic](https://panoptic.in)
 
 ## A bit about what I love doing:
+
 - Tech I love working with: Python, SQL, Tensorlfow, Docker, neo4j
 - Areas I am interested in
     - Applied machine learning and deep learning
