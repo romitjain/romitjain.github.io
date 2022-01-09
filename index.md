@@ -3,6 +3,8 @@ layout: home
 title: Why this website?
 ---
 
+# Welcome to my second brain!
+
 {% highlight python %}
 print('Hello World!')
 {% endhighlight %}
