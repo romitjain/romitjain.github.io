@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inbox Zero and mail categorization
+title: Inbox zero and mail categorization
 nav_order: 2
 has_children: false
 parent: DIY Productivity

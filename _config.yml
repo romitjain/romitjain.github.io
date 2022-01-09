@@ -21,7 +21,7 @@
 title: Romit
 description: My second brain!
 baseurl: '' # the subpath of your site, e.g. /blog
-url: "https://romitjain.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://romit.co.in" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 # Build settings
@@ -31,6 +31,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+future: true
 
 # Google Analytics
 ga_tracking: G-6ZV2L9PZTN
