@@ -25,7 +25,7 @@ url: "https://romit.co.in" # the base hostname & protocol for your site, e.g. ht
 permalink: pretty
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 markdown: kramdown
 plugins:
