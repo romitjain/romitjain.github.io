@@ -9,6 +9,10 @@ parent: DIY Productivity
 1. TOC
 {:toc}
 
+## Date
+
+9th Jan 2022
+
 ## Intro
 
 After reading a lot on the topic of taking notes and practicing note taking for almost 8 years, I realize that having a good system of accumulating notes on relevant topics is far more important than noting things down for storing purposes.
@@ -17,7 +21,7 @@ There are multiple ways to take notes. The tools we use are irrelevant. What we 
 
 (PS: I use [Obsidian](https://obsidian.md/) to take all my notes.)
 
-Here I'll explain a system I use to take notes. They are not yet proven to be effective, but hopefully I can learn and make them better.
+Here I'll explain a system I use to take notes. They are not yet proven to be effective, but hopefully, I can learn and make them better.
 
 ## Types of notes
 
@@ -40,11 +44,11 @@ Here I'll explain a system I use to take notes. They are not yet proven to be ef
 3. These includes: Thoughts, prompts, quotes, sources, etc.
 4. 1 inbox note contains stuff around a single topic (eg: Stoicism, Web 3 or Docker)
 5. Ideally, they should be transient notes, similar to when we are researching for a topic and we read up a lot of stuff and collect resources on them
-6. These notes contains thoughts that are not our's, but rather someone else's, which is fine for some topics, but if we want to get better and dig deeper on some topics, we move on to Evergreen notes
+6. These notes contain thoughts that are not our's, but rather someone else's, which is fine for some topics, but if we want to get better and dig deeper on some topics, we move on to Evergreen notes
 
 ### Evergreen notes
 
-1. This is where the fun begins. I can't explain it better than Andy Matuschak, so I'll link his work [here](https://notes.andymatuschak.org/Evergreen_notes). 
+1. This is where the fun begins. I can't explain it better than Andy Matuschak, so I'll link his work [here](https://notes.andymatuschak.org/Evergreen_notes).
     1. TLDR: These notes are atomic (about a single topic or idea) and accumulate over time and projects. They are also our thoughts and learning on the topic
 2. One thing I'd say though is that, we don't need to write evergreen notes for each and every topic we encounter.
 3. We'd be fine if we have Topic notes on medium-important topics.
@@ -54,7 +58,7 @@ Here I'll explain a system I use to take notes. They are not yet proven to be ef
 
 1. These are notes around a single project
 2. They can contain a list of all relevant Evergreen notes or Topic notes
-3. They can serve as index, and or be linked to Daily log
+3. They can serve as an index, and or be linked to the Daily log
 
 ### Literature notes
 
