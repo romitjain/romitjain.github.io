@@ -9,6 +9,10 @@ parent: DIY Productivity
 1. TOC
 {:toc}
 
+## Date
+
+9th Jan 2022
+
 ## Intro
 
 After reading a lot on the topic of taking notes and practicing note taking for almost 8 years, I realize that having a good system of accumulating notes on relevant topics is far more important than noting things down for storing purposes.
