@@ -22,7 +22,7 @@ I won't delve into the philosophy of why you need Inbox zero or how it can help.
 Let me preface this article by mentioning a few important things:
 
 1. I am not an ultra-busy person who receives 100s of emails every day.
-2. While on the path to Inbox zero, categorization of mails help. I do it because of my love of organizing stuff. 
+2. While on the path to Inbox zero, categorization of mails help. I do it because of my love of organizing stuff.
 3. I use Gmail. My system works on Gmail, but I haven't tested it on other mail providers.
 4. This article is going to be action-oriented.
 
