@@ -30,8 +30,8 @@ Hello! I am Romit. I love building data driven tools and products. I have ~4 yea
 
 - Tech I love working with: Python, SQL, Tensorlfow, Docker, neo4j, DBT
 - Areas I am interested in
-    - Applied machine learning and deep learning
-  - Computer Vision, Network Science
+  - Applied machine learning and deep learning
+    - Computer Vision, Network Science
   - Human in loop decisions, Multimodal learning
   - MLOps
 - Reading [books](https://www.goodreads.com/user/show/100308617-romit), playing cricket and petting cats
