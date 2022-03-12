@@ -11,7 +11,9 @@ print('Hello World!')
 
 Printing hello world seems a fitting introductory page to a `(almost)` dev's website.
 
-Hi, I am Romit. I have created this website to share some of my ideas/ramblings. These are sometimes unfinished and evolves continuously. I have two major goals with this website
+Hi, I am Romit. I have created this website to share some of my ideas/ramblings. These are sometimes unfinished and evolves continuously. I write everything on this website for my own self.
+
+I have two major goals with this website
 
 1. Crystallize my thought process. Writing helps in this.
 2. Share my learning and failures. A way for me to give back to the internet (from where I have learned almost everything!).
