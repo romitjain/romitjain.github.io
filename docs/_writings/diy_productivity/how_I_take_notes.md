@@ -4,14 +4,11 @@ title: How I take notes
 nav_order: 1
 has_children: false
 parent: DIY Productivity
+last_modified_date: 09 Jan 2022
 ---
 
 1. TOC
 {:toc}
-
-## Date
-
-9th Jan 2022
 
 ## Intro
 
