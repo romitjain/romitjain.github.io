@@ -4,14 +4,11 @@ title: Inbox zero and mail categorization
 nav_order: 2
 has_children: false
 parent: DIY Productivity
+last_modified_date: 09 Jan 2022
 ---
 
 1. TOC
 {:toc}
-
-## Date
-
-9th Jan 2022
 
 ## Purpose
 

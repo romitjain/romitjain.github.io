@@ -4,14 +4,11 @@ title: Social Media Bad
 nav_order: 1
 has_children: false
 parent: Thoughtful Ramblings
+last_modified_date: 18 Jan 2022
 ---
 
 1. TOC
 {:toc}
-
-## Date
-
-18th Jan 2022
 
 ## Context
 

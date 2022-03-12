@@ -3,14 +3,12 @@ layout: default
 title: How I work
 nav_order: 2
 has_children: false
+permalink: /how_i_work
+last_modified_date: 12 Mar 2022
 ---
 
 1. TOC
 {:toc}
-
-## Date
-
-7th March 2022
 
 ## How I work/Purpose
 
@@ -70,13 +68,16 @@ I really appreciate the same behavior from my colleagues as well, but I do recog
 
 (Work related)
 
-1. Documentation
-2. Self serve platforms
-3. Mails/Slacks > Meetings are my preferred order of communication.
-4. Minimal dashboards with 2-3 important metrics
-5. Organizing anything really.
+1. Feedback. If you have any, please share directly.
+2. Documentation. Always up for documenting for the products/tools I built or used
+3. Self serve platforms
+4. Mails/Slacks > Meetings are my preferred order of communication.
+5. Minimal dashboards with 2-3 important metrics
+6. Organizing anything really.
 
 ## Other things to know about me
+
+As I mentioned earlier, I really love any feedback. Feedback has helped me grow as a person, and if you have any feedback, please feel free to share it.
 
 In the meetings, I like to take notes and absorb as much information as possible. If I am silent this does not mean that I don't like the presented ideas or I don't have any views. I might come back later with a few more points when I had some time to think about it.
 
