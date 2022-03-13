@@ -131,6 +131,11 @@ kramdown:
 sass:
   style: compressed
 
+collections:
+  pages:
+    permalink: "/:collection/:path/"
+    output: true
+
 defaults:
   - scope:
       path: ""
@@ -139,6 +144,13 @@ defaults:
       layout: Post
       permalink: /posts/:title
       content-type: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: Page
+      permalink: /pages/:title
+      content-type: page
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,5 +1,5 @@
 ---
-title: Why this website?
+title: Why this website
 tags: Introduction
 ---
 

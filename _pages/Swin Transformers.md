@@ -1,6 +1,6 @@
 ---
 title: Swin Transformers
-tags: Research-Papers, Learnings
+tags: Research-Papers Learnings
 ---
 
 1. TOC
