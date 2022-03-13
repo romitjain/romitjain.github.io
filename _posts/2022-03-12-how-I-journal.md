@@ -31,14 +31,14 @@ Really simple. I have a straightforward template that I follow.
 
 ```markdown
 ## Gratitude
-<What am I grateful for?>
+<!-- What am I grateful for? -->
 I don't force myself to write this section.
 
 ## Journal
-<What's going on in my mind?>
+<!-- What's going on in my mind? -->
 
 ## What am I looking forward to?
-<Anything interesting to look forward to?>
+<!-- Anything interesting to look forward to? -->
 ```
 
 I journal once on weekends and once mid week, but I am hoping to increase my frequency.

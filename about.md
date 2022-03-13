@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: About Me
+title: About me
 permalink: /about
 last_modified_date: 12 Mar 2022
 content-type: eg

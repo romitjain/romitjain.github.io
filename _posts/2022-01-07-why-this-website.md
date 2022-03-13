@@ -18,7 +18,7 @@ I have two major goals with this website
 1. Crystallize my thought process. Writing helps in this.
 2. Share my learning and failures. A way for me to give back to the internet (from where I have learned almost everything!).
 
-You can learn more [[About Me]]
+You can learn more [[About me]]
 
 ## Inspiration for this website
 
