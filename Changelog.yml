@@ -1,8 +1,11 @@
-date: 2022-03-12
-changes:
-  - Added footer
-  - Added updated date
-  - Updated title and description
-  - Removed docs folder
-  - Added one learning page
-  - Added one productivity page
+2022-03-12:
+  changes:
+    - Added footer
+    - Added updated date
+    - Updated title and description
+    - Removed docs folder
+    - Added one learning page
+    - Added one productivity page
+2022-03-13:
+  changes:
+    - Major changes to the website, new theme
