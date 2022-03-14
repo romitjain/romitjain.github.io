@@ -55,7 +55,7 @@
         {%- if site.user.display != true -%}
             {%- assign header_direction = 'site-heading-ltr' -%}
         {%- endif -%}
-        {%- if page.content-type == "post" -%}
+        {%- if page.content-type == "notes" -%}
             {%- assign header_direction = 'site-heading-ltr' -%}
             {%- assign userboard_display = 'hide' -%}
         {%- endif -%}
@@ -242,7 +242,7 @@
                 <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
             </svg>
         </div>
-        <p class="back-p">Home</p>    
+        <p class="back-p">Home</p>
     </div>
     {%- endif -%}
     {% if site.ga_tracking != nil %}
@@ -252,7 +252,7 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
+        gtag('config', '{{ site.ga_tracking }}');
     </script>
     {% endif %}
 </header>

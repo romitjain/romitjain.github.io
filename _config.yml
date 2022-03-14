@@ -108,6 +108,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-tidy
+  - jekyll-tagories
 
 # Google Analytics
 ga_tracking: G-6ZV2L9PZTN
@@ -131,14 +132,25 @@ kramdown:
 sass:
   style: compressed
 
+collections:
+  notes:
+    permalink: "/:collection/:path/"
+    output: true
+
 defaults:
   - scope:
-      path: ""
+      path: "posts"
       type: posts
     values:
       layout: Post
-      permalink: /posts/:title
+      permalink: /:title
       content-type: post
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: Notes
+      content-type: notes
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -161,3 +173,6 @@ defaults:
 #   - vendor/ruby/
 
 exclude: ['old_website', '_comming_soon']
+
+# last_edit_time_format: "%d %b %Y"
+# last_modified_date: 12 Mar 2022

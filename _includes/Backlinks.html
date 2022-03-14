@@ -39,7 +39,7 @@
             {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
-{%- for note in site.pages -%}
+{%- for note in site.notes -%}
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
                 {%- assign link_count = link_count | plus:1 -%}
@@ -65,7 +65,7 @@
             {%- endif -%}
         {%- endif -%}
         {%- endfor -%}
-        {%- for note in site.pages -%}
+        {%- for note in site.notes -%}
         {%- if note.url != page.url -%}
             {%- if note.content contains wiki_link_title -%}
             <div class="related-group"><a href="{{note.url}}">

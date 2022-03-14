@@ -1,6 +1,7 @@
 ---
 title: How I take notes
-tags: DIY-Productivity
+tags: diy-productivity
+date: 2022-01-12
 ---
 
 1. TOC

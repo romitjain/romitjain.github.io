@@ -28,9 +28,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Romit's second brain" property="og:site_name"/>
+    <meta content="Romit's second brain" property="og:site_name" />
     <meta content="Thoughtful ramblings and developing ideas" property="og:description">
     <meta content="{{ site.url }}/about" property="article:author">
 
@@ -45,12 +46,12 @@
 
     <title>{{site.heading}}</title>
 
-    <link rel="canonical" href="{{site.url}}{{page.url}}"/>
+    <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <link rel="apple-touch-icon" href="/assets/images/memoji.PNG">
-    <link rel="icon" href="/assets/images/memoji.PNG" type="image/png" sizes="16x16"/>
+    <link rel="icon" href="/assets/images/memoji.PNG" type="image/png" sizes="16x16" />
     <link href="/assets/css/Style.css" rel="stylesheet" media="all" class="default" />
     <link href="/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
-	<link href="/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default"/>
+    <link href="/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
     <!--[if IE]>
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
     <![endif]-->
@@ -60,12 +61,12 @@
 
 <body>
     <div class="container">
-        <div class = "box">
+        <div class="box">
             {%- include Header.html -%}
             {%- include Feed.html -%}
 
-            {%- if page.content-type == "notes" 
-                or page.content-type == "post"  -%}
+            {%- if page.content-type == "notes"
+            or page.content-type == "post" -%}
             <main>
                 <h1>{{page.title}}</h1>
                 {%- include Content.html -%}
@@ -83,6 +84,7 @@
         </div>
     </div>
     <!-- Load KaTeX -->
-	{%- include ContextMenu.html -%}
+    {%- include ContextMenu.html -%}
 </body>
+
 </html>
