@@ -1,6 +1,6 @@
 ---
 title: Swin transformers
-tags: Research-Papers Learnings
+tags: research-papers learnings
 date: 2022-03-12
 ---
 

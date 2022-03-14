@@ -1,6 +1,6 @@
 ---
 title: Inbox zero and mail categorization
-tags: DIY-Productivity
+tags: diy-productivity
 date: 2022-01-09
 ---
 

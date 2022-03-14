@@ -20,9 +20,8 @@ content-type: eg
 </style>
 
 <main>
-    {% assign postsByDay = 
-    site.notes | group_by_exp:"post", "post.date | date: '%d-%B-%Y'" %}
-    
+    {% assign postsByDay = site.notes | group_by_exp:"post", "post.date | date: '%B %Y'" | sort: "date" | reverse %}
+
     {% for day in postsByDay %}
       <h3 id="{{ day.name }}">{{ day.name }}</h3>
           {% for post in day.items %}

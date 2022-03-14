@@ -1,6 +1,6 @@
 ---
 title: Why this website
-tags: Introduction
+tags: introduction
 date: 2022-01-07
 ---
 

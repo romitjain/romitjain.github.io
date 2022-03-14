@@ -1,6 +1,6 @@
 ---
 title: How I work
-tags: Introduction
+tags: introduction
 date: 2022-03-06
 ---
 

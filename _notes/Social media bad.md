@@ -1,6 +1,6 @@
 ---
 title: Social media bad
-tags: Thoughtful-Ramblings
+tags: thoughtful-ramblings
 date: 2022-01-18
 ---
 

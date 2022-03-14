@@ -40,6 +40,8 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-tagories (0.1.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-tidy (0.2.2)
       htmlbeautifier
       htmlcompressor
@@ -93,6 +95,7 @@ DEPENDENCIES
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
+  jekyll-tagories (~> 0.1.0)
   jekyll-tidy
   kramdown-math-katex
   tzinfo (~> 1.2)

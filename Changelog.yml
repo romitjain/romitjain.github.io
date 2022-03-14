@@ -1,4 +1,4 @@
-2022-03-12:
+1.9:
   changes:
     - Added footer
     - Added updated date
@@ -6,6 +6,9 @@
     - Removed docs folder
     - Added one learning page
     - Added one productivity page
-2022-03-13:
+2.0:
   changes:
     - Major changes to the website, new theme
+2.1:
+  changes:
+    - Updated the website to be consistent with Obsidian
