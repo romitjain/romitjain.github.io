@@ -1,4 +1,5 @@
 1.9:
+  date: 2022-03-12
   changes:
     - Added footer
     - Added updated date
@@ -7,8 +8,14 @@
     - Added one learning page
     - Added one productivity page
 2.0:
+  date: 2022-03-13
   changes:
     - Major changes to the website, new theme
 2.1:
+  date: 2022-03-14
   changes:
     - Updated the website to be consistent with Obsidian
+    - Fixed sorting issue on the feed
+    - Fixed about me broken link
+    - Fixed broken links
+
