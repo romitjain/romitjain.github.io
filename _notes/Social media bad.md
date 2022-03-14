@@ -1,6 +1,7 @@
 ---
-title: Social Media Bad
+title: Social media bad
 tags: Thoughtful-Ramblings
+date: 2022-01-18
 ---
 
 1. TOC

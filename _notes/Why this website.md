@@ -1,6 +1,7 @@
 ---
 title: Why this website
 tags: Introduction
+date: 2022-01-07
 ---
 
 ## Welcome to my second brain

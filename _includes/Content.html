@@ -1,10 +1,10 @@
 <!-- Parse internal links, external links, transclusions etc and manipuate the content to reflect it accordingly -->
-{%- if page.content-type == "post" -%}
+{%- if page.content-type == "notes" -%}
 <ul class="tags">
     {%- if page.status != nil and page.status != empty -%}
     <li><a href="javascript:void(0)" class="tag"><b>Status:</b> <i>{{page.status | capitalize}}</i></a></li>
     {%- endif -%}
-    <li><a href="/dates/#{{ page.date | date: '%d-%B-%Y' }}" class="tag">{{ page.date | date: '%B-%d-%Y' }}</a></li>
+    <li><a href="/dates/#{{ page.date | date: '%Y-%B-%d' }}" class="tag">{{ page.date | date: '%B-%d-%Y' }}</a></li>
     <!-- Loop through page categories and print them in tags -->
     {%- for tag in page.tags -%}
         {%- if tag == 'Favorite' -%}
@@ -29,8 +29,7 @@
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
             
                 {%- if external_link[1] == nil -%}
-                    {%- assign result_posts = site.posts | where: 'title',itemparts[0] -%}
-                    {%- assign result_pages = site.pages | where: 'title',itemparts[0] -%}
+                    {%- assign result_pages = site.notes | where: 'title',itemparts[0] -%}
                     {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_link -%}
                     {%- assign internal_urls = internal_urls | append: link_joiner_delimiter | append: result_posts[0].url | append: result_pages[0].url -%}
                 {%- else -%}
@@ -55,7 +54,7 @@
             {%- elsif url == empty -%}
                 {%- assign link_text = '<a class="stale-link" href="' | append: 'javascript:void(0)' | append: '">' | append: title | append: '</a>' -%}
             {%- else -%}
-                    {%- assign post = site.posts | where: 'title',title -%}
+                    {%- assign post = site.notes | where: 'title',title -%}
                     {%- assign excerpt = post[0].content | markdownify | strip_html | truncate: 200 | newline_to_br -%}
                     {%- if site.preferences.pagepreview.enabled -%}
                         {%- assign link_text = '<span class="tooltip"><a href="' | append: url | append: '">' | append: title | append: '</a><span class="right bottom"><span class="tooltip-title">' | append: title | append: '</span><br/><span class="tooltip-excerpt">' | append: excerpt | append: '</span><i></i></span></span>' -%}
@@ -108,7 +107,7 @@
 
                 {%- if url contains "transclude" -%}
                     {%- if site.preferences.sidenotes.enabled -%}
-                        {%- assign post = site.posts | where: 'title',title -%}
+                        {%- assign post = site.notes | where: 'title',title -%}
                         {%- assign excerpt = post[0].content | strip_html | truncate: 280 -%}
                         {%- assign link_text = '<label for="' | append: url | append: '-' | append: sideNoteCounter | append: '" class="margin-toggle ' | append: sideNoteNum | append: ' ">' | append: toggleLabel | append: '</label><input type="checkbox" id="' | append: url | append: '-' | append: sideNoteCounter | append: '" class="margin-toggle"/><span class="' | append: noteType | append: '"><a href="' | append: post[0].url  | append: '"> <span style="background-color: #ffffc4; color: #555;">Transclusion</span><br/><b>' | append: title | append: '</b><br/>' | append: excerpt | append: '</a></span>' -%}
                     {%- endif -%}

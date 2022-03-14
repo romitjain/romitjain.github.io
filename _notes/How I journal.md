@@ -1,6 +1,7 @@
 ---
 title: How I journal
 tags: DIY-Productivity
+date: 12-Mar-2022
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: How I work
 tags: Introduction
+date: 2022-03-06
 ---
 
 1. TOC

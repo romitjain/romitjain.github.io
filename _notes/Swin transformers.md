@@ -1,6 +1,7 @@
 ---
-title: Swin Transformers
+title: Swin transformers
 tags: Research-Papers Learnings
+date: 2022-03-12
 ---
 
 1. TOC

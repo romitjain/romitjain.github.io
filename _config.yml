@@ -132,25 +132,17 @@ sass:
   style: compressed
 
 collections:
-  pages:
+  notes:
     permalink: "/:collection/:path/"
     output: true
 
 defaults:
   - scope:
-      path: ""
-      type: posts
+      path: "_notes"
+      type: notes
     values:
-      layout: Post
-      permalink: /posts/:title
-      content-type: post
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: Page
-      permalink: /pages/:title
-      content-type: page
+      layout: Notes
+      content-type: notes
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -173,3 +165,6 @@ defaults:
 #   - vendor/ruby/
 
 exclude: ['old_website', '_comming_soon']
+
+# last_edit_time_format: "%d %b %Y"
+# last_modified_date: 12 Mar 2022

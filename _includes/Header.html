@@ -55,7 +55,7 @@
         {%- if site.user.display != true -%}
             {%- assign header_direction = 'site-heading-ltr' -%}
         {%- endif -%}
-        {%- if page.content-type == "post" -%}
+        {%- if page.content-type == "notes" -%}
             {%- assign header_direction = 'site-heading-ltr' -%}
             {%- assign userboard_display = 'hide' -%}
         {%- endif -%}
