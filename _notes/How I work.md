@@ -33,12 +33,14 @@ For meetings, it's best for me to meet in person and avoid awkward silences on m
 Broadly
 
 1. Build predictive models
+
     1.1 Based on machine learning or deep learning or simple rules
 2. Data analysis
+
     2.1 For growth analysis, model analysis or feature analysis
 3. Write pipelines to automate the above stuff
 
-More in [[About me]]
+More about me [here](/about)
 
 ## Communication
 

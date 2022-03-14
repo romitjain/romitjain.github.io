@@ -139,6 +139,13 @@ collections:
 
 defaults:
   - scope:
+      path: "posts"
+      type: posts
+    values:
+      layout: Post
+      permalink: /:title
+      content-type: post
+  - scope:
       path: ""
       type: notes
     values:
