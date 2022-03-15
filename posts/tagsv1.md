@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: By Tags
-permalink: /tags/
+permalink: /tagsv1/
 content-type: eg
 ---
 

@@ -108,7 +108,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-tidy
-  - jekyll-tagories
+  # - jekyll-tagories
 
 # Google Analytics
 ga_tracking: G-6ZV2L9PZTN
