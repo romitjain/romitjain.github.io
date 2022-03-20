@@ -46,7 +46,7 @@ user:
   photo: "/assets/images/memoji.PNG"
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
-    enabled: false # turn this to true
+    enabled: true # turn this to true
     twitter: romitjain_
     github: romitjain
     youtube: null
