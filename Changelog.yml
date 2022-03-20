@@ -22,3 +22,9 @@
   date: 2022-03-15
   changes:
     - Fixed broken tags page
+2.3:
+  date: 2022-03-20
+  changes:
+    - Added two posts
+    - Added dates link on the header
+    - Added social profiles on the header
