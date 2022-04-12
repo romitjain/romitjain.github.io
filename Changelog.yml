@@ -32,3 +32,8 @@
   date: 2022-03-23
   changes:
     - Added a post
+2.5:
+  date: 2022-04-12
+  changes:
+    - Replaced preview of feeds with tags
+    - Added a post
