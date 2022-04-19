@@ -37,3 +37,7 @@
   changes:
     - Replaced preview of feeds with tags
     - Added a post
+2.6:
+  date: 2022-04-12
+  changes:
+    - Added a post and updated one
