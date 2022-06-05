@@ -1,6 +1,6 @@
 ---
 title: AST Audio Spectrogram Transformer
-tags: research-papers learnings
+tags: research-papers deep-learning
 date: 2022-03-23
 ---
 
