@@ -32,11 +32,12 @@ I use [Obsidian](https://obsidian.md/) to take all my notes
 ### Topic notes
 
 1. These are the notes of useful topics that I would like to remember.
-2. Typically scraped from my **Daily log**, but they can also directly come from other sources.
-3. These includes: Thoughts, prompts, quotes, sources, etc.
-4. 1 inbox note contains stuff around a single topic (eg: Stoicism, Web 3 or Docker).
-5. Ideally, they should be transient notes, similar to when I am researching for a topic and I read up a lot of stuff and collect resources on them.
-6. These notes contain thoughts that are not our's, but rather someone else's, which is fine for some topics, but if I want to get better and dig deeper on some topics, I move on to Evergreen notes.
+2. These are my understanding of a particular consumed source
+3. Typically scraped from my **Daily log**, but they can also directly come from other sources.
+4. These includes: Thoughts, prompts, quotes, sources, etc.
+5. 1 inbox note contains stuff around a single topic (eg: Stoicism, Web 3 or Docker).
+6. Ideally, they should be transient notes, similar to when I am researching for a topic and I read up a lot of stuff and collect resources on them.
+7. These notes contain thoughts that are not our's, but rather someone else's, which is fine for some topics, but if I want to get better and dig deeper on some topics, I move on to Evergreen notes.
 
 ### Evergreen notes
 
@@ -51,11 +52,6 @@ I use [Obsidian](https://obsidian.md/) to take all my notes
 1. These are notes around a single project
 2. They can contain a list of all relevant Evergreen notes or Topic notes
 3. They can serve as an index, and or be linked to the Daily log
-
-### Literature notes
-
-1. I am new to these kinds of notes, but they are usually notes that serve as a connecting node between different notes
-2. These can be author names like `Daniel Kahneman` or tool names like `Obsidian`
 
 I still haven't figured out a systematic way of physically organizing my notes (folder structure etc.). I'll write about it as and when I create one.
 

@@ -1,6 +1,6 @@
 ---
 title: Swin transformers
-tags: research-papers learnings
+tags: research-papers deep-learning
 date: 2022-03-12
 ---
 
@@ -12,8 +12,8 @@ date: 2022-03-12
 - Swin transformer can be used as a general purpose backbone for various computer vision tasks
 - It produces an embedding for the image
 - Earlier computer vision transformer architectures faced the problem of scalability as the computations are quadratic in nature
-  - Quadratic in relation to number of tokens (N)
-  - For images, this token size is high (based on # of patches)
+    - Quadratic in relation to number of tokens (N)
+    - For images, this token size is high (based on # of patches)
 
 ## Architecture
 
