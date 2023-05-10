@@ -65,15 +65,19 @@ Boosting is tweaking your model sequentially. Fit a model and see where it lacks
 
 - XGBoost = eXtreme Gradient Boosting
 - XGBoost: Largely software and hardware optimization of Gradient Boosting
-- $$\lambda$$ is used for regularization
-- $$\gamma$$ is used for pruning
-- $$\eta$$ is the scaling parameter for each tree
+- $\lambda$ is used for regularization
+- $\gamma$ is used for pruning
+- $\eta$ is the scaling parameter for each tree
 - For classification: Cover is defined as similarity score - $$\lambda$$.  Cover controls how much can we grow the tree
 
 ### Step by Step (Regression, StatQuest)
 
 1. We fit an XGBoost tree instead of a regular regression tree
-2. TBA
+2. Make an initial prediction of `0.5`
+3. Fit a tree and calculate similarity scores of all the nodes
+4. Calculate the gain of a parent node based on its and its children similarity score 
+5. Once the tree is fit to the desired depth, we prune the tree based on $\gamma$ value
+6. $\eta$ is the learning rate for scaling individual trees
 
 ### How XGBoost performs better than GBMs
 
