@@ -42,13 +42,16 @@ Also, whenever we want to link our notes, keep this in mind:
 I currently follow [[How I take notes]]. But the book recommends another and much simpler way called as zettelkasten method.
 
 ### Literature notes
+
 - They are our reference notes where we capture verbatim quotes and references
 - Mostly linked to a source (like a book or a podcast)
 
 ### Permanent notes
+
 - Review our literature notes once in a while and elaborate on important topics in your own words.
 - A single permanent note should be about one topic
 - Once we have written out permanent note, link it to an existing note based on the context
 
 ## References
+
 1. [Author's original post on Quora](https://www.quora.com/What-is-the-best-way-to-take-notes/answer/S%C3%B6nke-Ahrens?ch=10&share=e1efd8f9&srid=uJBsW)

@@ -23,6 +23,6 @@ This is done by:
 
 This concept was taught to me by my first manager when I cribbed to him that I am getting too many PRs to review!
 
-# Reference
+## Reference
 
 1. [Article](https://lethain.com/succession-planning/)

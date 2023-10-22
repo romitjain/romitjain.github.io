@@ -6,7 +6,7 @@ date: 2022-04-12
 
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/51PfH156fIL._SL200_.jpg)
 
-Author: [[Scott H. Young]]
+Author: Scott H. Young
 
 - Ultra learning requires learning with high intensity and commitment.
 - Source of happiness is not achieving simple things, but constantly pushing ourselves and overcoming our own limitations.
@@ -22,17 +22,17 @@ Author: [[Scott H. Young]]
 2. Figure out why, what, how of ultra learning project
 3. Don't spend too much time. Stop researching (or meta learning) when the incremental benefits are marginal
 4. Divide the project into
-	1. Concepts
-	2. Facts
-	3. Procedures
+    1. Concepts
+    2. Facts
+    3. Procedures
 
 ### Focus
 
 1. The ability to focus is under rated. Develop it and if it helps stop using things that ruin your focus (related: [[Social media bad]])
 2. Complex tasks require deep focus, low arousal (so that we don't wander off easily) and relaxed atmosphere
 3. Listening to music while working might be increasing our arousal levels.
-	1. If we are not well rested and our arousal levels are very low, music might help. But if are well rested and our arousal levels are okay, music and other things might increase the arousal level a bit too much
-	2. High arousal makes your mind wander off because we are in very alert mode. This is the reason we might not be able to focus on a single complex task when we have a high from coffee
+    1. If we are not well rested and our arousal levels are very low, music might help. But if are well rested and our arousal levels are okay, music and other things might increase the arousal level a bit too much
+    2. High arousal makes your mind wander off because we are in very alert mode. This is the reason we might not be able to focus on a single complex task when we have a high from coffee
 
 ### Directness
 
@@ -44,7 +44,7 @@ Author: [[Scott H. Young]]
 ### Drill
 
 1. Drill down on most important/critical parts of an ultra learning project (eg: learning about the internal workings of CNNs completely in Computer Vision domain)
-	1. It is worth spending extra time on critical core fundamentals
+    1. It is worth spending extra time on critical core fundamentals
 
 ## Retrieval
 
@@ -56,12 +56,12 @@ Author: [[Scott H. Young]]
 
 1. Immediate feedback on one's performance is important to improve the process of ultra learning
 2. Fear of feedback can hold us back and affect the speed of ultra learning
-	1. It's tough to get over fear of feedback, but once we put us out there for feedback, we'll notice negative feedback is not so bad. It can indeed help us improve. It's just uncomfortable in the starting
+    1. It's tough to get over fear of feedback, but once we put us out there for feedback, we'll notice negative feedback is not so bad. It can indeed help us improve. It's just uncomfortable in the starting
 3. 3 types of feedback
-	1. Outcome feedback: Least granular, receiving feedback only at the output of the process. Also, most easy to get.
-	2. Informational feedback: Tells us what we are doing wrong.
-	3. Corrective feedback: Shows us how to correct what we are doing wrong. Most granular and best kind of feedback. Given by a coach or a mentor.
-4. Don't process feedback on your ego and be selective on what kind of feedback we want to process.
+    1. Outcome feedback: Least granular, receiving feedback only at the output of the process. Also, most easy to get.
+    2. Informational feedback: Tells us what we are doing wrong.
+    3. Corrective feedback: Shows us how to correct what we are doing wrong. Most granular and best kind of feedback. Given by a coach or a mentor.
+    4. Don't process feedback on your ego and be selective on what kind of feedback we want to process.
 
 ## Retention
 
@@ -70,6 +70,7 @@ Author: [[Scott H. Young]]
 3. Practice a lot of concrete examples. Once we have practiced, we'll start finding patterns in the problems and build abstract ideas around the topic
 
 ## Intuition
+
 > The illusion of understanding is very often the barrier to deeper knowledge, because unless that competency is actually tested, it’s easy to mislead yourself into thinking you understand more than you do.
 
 1. Intuition is built after repeated retrieval and retention of topics.

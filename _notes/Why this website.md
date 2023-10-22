@@ -24,9 +24,9 @@ You can learn more about me [here](/about). You can also browse the website by [
 ## Inspiration for this website
 
 - [Anydy Matuschak](https://andymatuschak.org/)
-  - His immensely detailed [working notes](https://notes.andymatuschak.org/About_these_notes)
-  - His way of taking notes is inspirational.
+    - His immensely detailed [working notes](https://notes.andymatuschak.org/About_these_notes)
+    - His way of taking notes is inspirational.
 - [Manas Saloi](https://manassaloi.com/)
-  - A lot of nice blog posts.
+    - A lot of nice blog posts.
 - [Ali Abdaal](https://aliabdaal.com/)
-  - Huge respect for the way Ali shares his learnings and thoughts.
+    - Huge respect for the way Ali shares his learnings and thoughts.

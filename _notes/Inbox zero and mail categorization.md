@@ -71,7 +71,7 @@ Read about the snooze feature in Gmail [here](https://support.google.com/mail/an
 The filters take care of 95% of my emails. For the rest of my mails, I do either of these things:
 
 - If I have to spend a lot of time in the mail (eg: Reading newsletter or get some work done before replying), I snooze the mail to resurface at an appropriate time.
-  - For example, I snooze all the newsletters that I receive to weekend and read them in one go
+    - For example, I snooze all the newsletters that I receive to weekend and read them in one go
 - If it needs to be read and no action is required, I archive it. If it should have already been categorized and archived, I would update the relevant filter as well.
 - For the rest of the emails, I can choose to reply then and there. If I don't want to send the mail at that instant, I will schedule it.
 - The gist here is to use the Snooze feature heavily to resurface the mail again in the future when you need it or when you are ready to deal with it. Keep your Inbox tidy!
