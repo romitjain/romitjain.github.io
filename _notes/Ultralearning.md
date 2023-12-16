@@ -37,7 +37,7 @@ Author: Scott H. Young
 ### Directness
 
 1. Apply our learning directly to a practical situation
-2. Learning with directness is tough and requires us to be an [[Active participant]]. That is why we might descend to passive learning (eg: just watching lectures instead of applying that knowledge, reading book instead of solving problems)
+2. Learning with directness is tough and requires us to be an Active participant. That is why we might descend to passive learning (eg: just watching lectures instead of applying that knowledge, reading book instead of solving problems)
 3. Supports the idea of just in time learning. Learn something which we can apply in our day to day contexts
 4. Organize our learning around producing something
 
@@ -52,7 +52,7 @@ Author: Scott H. Young
 2. Whenever we retrieve a topic in different contexts, it strengthens the concept of the topic and ties it to different topics in our minds
 3. Retrieval together with feedback improves longevity of the topic in our minds
 
-## [[Feedback]]
+## Feedback
 
 1. Immediate feedback on one's performance is important to improve the process of ultra learning
 2. Fear of feedback can hold us back and affect the speed of ultra learning
@@ -80,8 +80,8 @@ Author: Scott H. Young
 
 1. During the course of an ultralearning project, it is recommended to experiment on our learning styles to find the best that works for us.
 2. Experimentation has a simple core belief that we can grow and learn new things. These things are not possible if we are not ready to explore new things, techniques, and topics
-3. Adopting an experimentation based mindset also relates to growth mindset mentioned in [[Mindset]]
+3. Adopting an experimentation based mindset also relates to growth mindset mentioned in Mindset book
 
 ## Quotes
 
-> A hungry person can eat only so much food. A lonely person can have only so much companionship. [[Curiosity]] doesn’t work this way. The more one learns, the greater the craving to learn more. The better one gets, the more one recognizes how much better one could become.
+> A hungry person can eat only so much food. A lonely person can have only so much companionship. Curiosity doesn’t work this way. The more one learns, the greater the craving to learn more. The better one gets, the more one recognizes how much better one could become.

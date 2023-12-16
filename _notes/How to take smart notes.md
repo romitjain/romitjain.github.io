@@ -9,7 +9,7 @@ date: 2022-03-16
 
 ![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41iVa0x-P-L._SL200_.jpg)
 
-Author: [[Sönke Ahrens]]
+Author: Sönke Ahrens
 
 ## The case for taking notes
 

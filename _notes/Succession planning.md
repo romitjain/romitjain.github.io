@@ -14,11 +14,11 @@ Contrastingly, this is a nice way to level up in your career. Once you have buil
 
 This is done by:
 
-1. Building better processes and products which can run on auto pilot or with minimal maintenance.
-2. This can also be done by levelling up a junior who can take responsible of the products/areas that you are responsible for.
+1. Building better processes and products which can run on auto pilot or with minimal maintenance
+2. This can also be done by levelling up a junior who can take responsibilities of the products/areas that you are responsible for
 3. Delegating more and trusting in others to take good decisions
 4. Make a list of what you do: Audit meetings, to-dos and inbound chats
-    1. Delegate or document the process for the most of it
+    1. Delegate or document the process so that most folks can learn abiout your work asynchronously
     2. Close the gaps wherever you can
 
 This concept was taught to me by my first manager when I cribbed to him that I am getting too many PRs to review!
