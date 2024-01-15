@@ -9,8 +9,6 @@ date: 2023-12-16
 
 Last 3 months, my learning curve has been pretty steep. Probably the most steep in my entire career. I thought I'd take a break from consuming all the information, reflect on what I learned, and document the same for the future.
 
-[[Agents]]
-
 ## ASR
 
 Related to my work
@@ -92,9 +90,3 @@ Started working on LLMs professionally. Very fast-paced space which I have never
 2. This resulted in issues like expensive tokenization, and slower response times since models needed to output more tokens. I evaluated that on an open source translation dataset, the same sentences required almost 4-5x the number of tokens in Hindi than in English using tiktoken
 3. The first step that Sarvam did was to add 12k tokens for Hindi characters
 4. TBA
-
-<!-- ### GPUs
-
-Oh my god, there are so many and so complex things to learn about GPUs. I didn't know where to start from. Luckily from some help from a mentor, I could start to learn more about the internals of GPUs. I still need to gain some practical experience in GPU programming.
-
-(More to be added) -->
