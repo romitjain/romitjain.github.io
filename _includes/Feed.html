@@ -44,7 +44,8 @@
             {%- else -%}
             <p class="feed-title">{{ item.title }}</p>
             {%- endif -%}
-            <p class="feed-excerpt">{{ item.tags | strip_html | strip | escape | truncate: 150}}</p>
+            <!-- <p class="feed-excerpt">{{ item.tags | strip_html | strip | escape | truncate: 150}}</p> -->
+            <p class="feed-excerpt">[{{ item.tags | join: ", " }}]</p>
             </a>
         </div>
     {%- endfor -%}
