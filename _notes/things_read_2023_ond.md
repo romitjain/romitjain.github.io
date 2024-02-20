@@ -1,6 +1,6 @@
 ---
 title: Things read in 2023 OND
-tags: research-papers llms
+tags: research-papers LLMs
 date: 2023-12-16
 ---
 
@@ -14,7 +14,7 @@ Last 3 months, my learning curve has been pretty steep. Probably the most steep 
 Related to my work
 
 1. Major contributions of [[Whisper]] research paper
-2. Whisper and it's working for long-form audio [experimentation-github](https://github.com/romitjain/whisper-longform)
+2. Whisper and it's working for long-form audio [GitHub](https://github.com/romitjain/whisper-longform)
 
 ## NLP
 
@@ -70,14 +70,20 @@ Started working on LLMs professionally. Very fast-paced space which I have never
 
 ### Zephyr
 
-1. Zephyr included 2 main things to improve upon the Mistral model: dSFT and dDPO
-2. dSFT: Use GPT4 to generate prompts and responses and directly train on this demonstration data
-   1. But sometimes responses generated like this are not 'aligned' with how humans respond
-3. dDPO: To align the output by the model to human responses zephyr uses a method similar to RLHF used by OpenAI
-   1. They generate responses to a prompt by multiple models (say, Mistral, Claude, etc.) and use GPT 4 as an evaluator to rank them
-   2. For training, get the winning response and a sample from the losing responses. Use this pair of (Prompt, winning response, losing response) to align the model
-   3. Here they skip creating a intermediate reward model and directly update the main model while doing alignment
-   4. They also save the cost of a human evaluating the response and use GPT 4 as the evaluator
+1. Zephyr included 2 main things to improve upon the Mistral model: dSFT and dDPO.
+2. We have two models, one is the student model (much smaller, distilled version) and a teacher model (much larger, GPT4)
+3. dSFT: Distilled SFT
+   1. The model is trained on GPT4-generated prompts and responses. The dataset is of the format (`x1`, `y1`) where `x1` is the prompt and `y1` is the response (they iteratively improve the prompt as well)
+   2. However, these models did not turn out to be very aligned with how humans respond
+4. dDPO: Distilled DPO
+   1. To align the output of the model to human responses Zephyr uses the method of DPO
+   2. They generate responses to a prompt (`x`) from multiple models (say, Mistral, Claude, etc., `y_1`, `y_2`, and so on) and use GPT 4 as an evaluator to score them. The winning response is labeled as `y_w` and one of the losing response is sampled which is labeled as `y_l`. Now we have a dataset represented as: (`x`, `y_w`, `y_l`) (Prompt, winning response, losing response)
+   3. The dataset generated above is used to train a preference model, where given `x` the model learns to rank `y_l` above `y_w`. The steps are as follows (para phrased from the paper)
+      1. Compute the probability for (`x`, `y_w`) and (`x`, `y_l`) from the dSFT model (forward-only)
+      2. Compute the probability for (`x`, `y_w`) and (`x`, `y_l`) from the dDPO model.
+      3. Compute objective function for the preference model and backpropagate to update. Repeat.
+   4. They skip creating an intermediate reward model and directly update the student model while doing alignment. This the different from RLHF
+   5. They also save the cost of a human evaluating the response and use GPT 4 as the evaluator
 
 ### The power of prompting
 
@@ -86,7 +92,12 @@ Started working on LLMs professionally. Very fast-paced space which I have never
 
 ### Sarvam's OpenHathi
 
-1. All the current tokenizers do not prioritize Hindi characters because hindi tokens don't usually end up being in the top tokens
+1. All the current tokenizers do not prioritize Hindi characters because Hindi tokens don't usually end up being in the limited vocabulary of the tokenizers
 2. This resulted in issues like expensive tokenization, and slower response times since models needed to output more tokens. I evaluated that on an open source translation dataset, the same sentences required almost 4-5x the number of tokens in Hindi than in English using tiktoken
-3. The first step that Sarvam did was to add 12k tokens for Hindi characters
-4. TBA
+3. The first step that Sarvam did was to add 12k tokens for Hindi characters and "align" the tokenizer
+   1. A new sentence piece tokenizer is trained from scratch with a vocabulary size of 16K. This is then merged with the existing Llama tokenizer
+   2. The embedding of this new tokenizer is randomly initialized and the Llama model is finetuned for the translation task. Notably, this step is done using LoRA to preserve the original model's weights
+4. The second step was teaching the model a world model in Hindi. This was done on some original Hindi datasets available + some translated data from English to Hindi
+   1. The training step here is a bit weird in the sense that it learns to alternate between Hindi and English sentences (this is done purposefully). Due to this, the base model replies in this format only, wherein it alternates b/w both English and Hindi
+5. In the final phase, they perform SFT for some tasks like Translation, Content moderation, Qeustion-answering
+   1. With all this finetuning, the model still performs at par with the base Llama in English only benchmarks and they claim that it outperforms GPT4 in some translation tasks

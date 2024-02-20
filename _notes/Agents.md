@@ -1,6 +1,6 @@
 ---
 title: Agents
-tags: llms
+tags: LLMs
 date: 2024-01-15
 ---
 
