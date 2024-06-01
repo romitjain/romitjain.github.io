@@ -62,3 +62,4 @@ The industry is moving towards a new trend where they are using LLMs to power th
    2. Later they just moved to LLM-based agents and removed the whole training loop
 4. [Open interpreter](https://openinterpreter.com/): An agentic system that can interact with your laptop
 5. [Chat dev](https://chatdev.ai/): A small software company that can build simple software
+6. [Talk by Andrew Ng](https://www.youtube.com/watch?v=sal78ACtGTc)
