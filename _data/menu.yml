@@ -1,0 +1,43 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+
+  - title: info
+    entries:
+      - title: motivation
+        url: ./motivation.html
+      - title: about me
+        url: ./about.html
+      - title: github
+        url: https://github.com/romitjain
+
+  - title: all posts
+    post_list:
+      limit: 7
+      show_more: true
+      show_more_text: older posts..
+      show_more_url: archive.html
+
+  - title: selected work samples
+    entries:
+      - title: ViT.triton, Implementation of ViT in pure Triton
+        url: https://github.com/cmeraki/vit.triton
+      - title: AskDoc, Ask a fake doc that remembers everything about your health
+        url: https://github.com/romitjain/askdoc
+      - title: Blog on understanding the GPU programming model
+        url: https://cmeraki.github.io/gpu-part2.html
+  # - title: by category
+  #   entries:
+  #   - title: llms
+  #     post_list:
+  #       category: llms
+  #       limit: 2
+
+  #   - title: diy-rouductivity
+  #     post_list:
+  #       category: diy-productivity
+  #       limit: 2
+
+  #   - title: all categories
+  #     url: ./category.html
