@@ -24,8 +24,6 @@ You can learn more about me [here](/about). You can also browse the website by [
 
 ## Inspiration for this website
 
-- [Andy Matuschak](https://andymatuschak.org/)
-  - His immensely detailed [working notes](https://notes.andymatuschak.org/About_these_notes)
-  - His way of taking notes is inspirational.
-- [Manas Saloi](https://manassaloi.com/)
-  - A lot of nice blog posts.
+- [Andy Matuschak](https://andymatuschak.org/): His immensely detailed [working notes](https://notes.andymatuschak.org/About_these_notes)
+- [Manas Saloi](https://manassaloi.com/): A lot of nice blog posts.
+- [Paras Chopra](https://invertedpassion.com/): Writing for crystallizing thought process

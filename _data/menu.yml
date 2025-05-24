@@ -21,12 +21,19 @@ entries:
 
   - title: selected work samples
     entries:
+      - title: Sarvam-M, Worked on the post-training quantization and inference optimization (section 4)
+        url: https://www.sarvam.ai/blogs/sarvam-m
+      - title: gpt-benchmark, Analyzing inferencing bottlenecks in small models
+        url: https://github.com/romitjain/gpt-benchmark
+      - title: AudioToken, An open source tokenizer to tokenize audio
+        url: https://pypi.org/project/audiotoken/
+      - title: Indri, A small native audio language model
+        url: https://huggingface.co/11mlabs/indri-0.1-124m-tts
       - title: ViT.triton, Implementation of ViT in pure Triton
         url: https://github.com/cmeraki/vit.triton
-      - title: AskDoc, Ask a fake doc that remembers everything about your health
-        url: https://github.com/romitjain/askdoc
       - title: Blog on understanding the GPU programming model
         url: https://cmeraki.github.io/gpu-part2.html
+
   # - title: by category
   #   entries:
   #   - title: llms
@@ -39,5 +46,5 @@ entries:
   #       category: diy-productivity
   #       limit: 2
 
-  #   - title: all categories
-  #     url: ./category.html
+  - title: all categories
+    url: ./category.html
