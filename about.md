@@ -10,14 +10,13 @@ Hello! I am Romit. I love building data-driven tools and products. I have `(Curr
 ## A bit about my experience
 
 - Sarvam.ai, [February 2025-Present]
-    - I worked on the post-training quantization and inference optimization of Sarvam-M, a 24B post-trained model.
+    - I worked on the post-training quantization and inference optimization of [Sarvam-M, a 24B LLM](https://www.sarvam.ai/blogs/sarvam-m).
     - I built a central store for storing pre-training datasets based on WebDatasets that was highly fault-tolerant and scalable.
-    - I worked with TensorRT LLM, vLLM, WenDatasets, and K8s.
+    - I worked with TensorRT LLM, vLLM, WebDatasets, and K8s.
 
 - Meraki Labs, [December 2023-January 2025]
-    - I worked on pre-training small audio language models. I spent time understanding the audio domain and how its modeling works.
-    - I also worked on solving the gaps in the inferencing of small multimodal models and wrote a few kernels to accelerate inferencing.
-    - All things with 2 member team.
+    - I worked on pre-training [small audio language models](https://huggingface.co/11mlabs/indri-0.1-124m-tts). I spent time understanding the [audio domain](https://pypi.org/project/audiotoken/) and [how its modeling works](https://www.indrivoice.ai/blog/2024-11-19-audio-modelling).
+    - I also worked on solving the [gaps in the inferencing of small multimodal models](https://github.com/romitjain/gpt-benchmark) and wrote a [few GPU kernels](https://github.com/indri-voice/vit.triton) to accelerate inferencing.
     - I primarily worked with Triton, CUDA C, and PyTorch.
 
 - epifi, [November 2020-October 2023]

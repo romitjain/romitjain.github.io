@@ -33,6 +33,8 @@ entries:
         url: https://github.com/cmeraki/vit.triton
       - title: Blog on understanding the GPU programming model
         url: https://cmeraki.github.io/gpu-part2.html
+      - title: Project panoptic, Tracking facial recognition systems deployed in India
+        url: https://panoptic.in/about
 
   # - title: by category
   #   entries:
