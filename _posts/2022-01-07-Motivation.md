@@ -11,16 +11,16 @@ date: 2022-01-07
 print('Hello World!')
 ```
 
-Printing Hello World seems a fitting introductory page to a `(almost)` dev's website.
+Printing Hello World seems a fitting introductory page to a dev's website.
 
 Hi, I am Romit. I have created this website to share some of my ideas/ramblings. These are sometimes unfinished and evolve continuously. I write everything on this website for myself.
 
-I have two major goals with this website
+I have two major goals with this website.
 
-1. Crystallize my thought process. Writing helps in this.
-2. Share my learning and failures. A way for me to give back to the internet (from where I have learned almost everything!).
+1. Avoid myself from fooling myself that I understand a topic
+2. Write a note to me reminding me of important things
 
-You can learn more about me [here](/about). You can also browse the website by [dates](/archive) or [category](/category)
+You can learn more about me [here](/about).
 
 ## Inspiration for this website
 
