@@ -9,30 +9,37 @@ Hello! I am Romit. I love building data-driven tools and products. I have `(Curr
 
 ## A bit about my experience
 
-- Sarvam.ai, [February 2025-Present]
-    - I worked on the post-training quantization and inference optimization of [Sarvam-M, a 24B LLM](https://www.sarvam.ai/blogs/sarvam-m).
-    - I built a central store for storing pre-training datasets based on WebDatasets that was highly fault-tolerant and scalable.
-    - I worked with TensorRT LLM, vLLM, WebDatasets, and K8s.
+- ML engineer at [Sarvam.ai](https://www.sarvam.ai/), [February 2025-Present]
+    - Currently working on pre-training vision encoders for sovereign vision language models.
+    - Led post-training quantization and inference optimization of [Sarvam-M, a 24B LLM](https://www.sarvam.ai/blogs/sarvam-m).
+    - Built a highly fault-tolerant, scalable central store for pre-training datasets using WebDatasets.
+    - Worked with TensorRT LLM, vLLM, WebDatasets, and K8s.
 
-- Meraki Labs, [December 2023-January 2025]
-    - I worked on pre-training [small audio language models](https://huggingface.co/11mlabs/indri-0.1-124m-tts). I spent time understanding the [audio domain](https://pypi.org/project/audiotoken/) and [how its modeling works](https://www.indrivoice.ai/blog/2024-11-19-audio-modelling).
-    - I also worked on solving the [gaps in the inferencing of small multimodal models](https://github.com/romitjain/gpt-benchmark) and wrote a [few GPU kernels](https://github.com/indri-voice/vit.triton) to accelerate inferencing.
-    - I primarily worked with Triton, CUDA C, and PyTorch.
+- AI engineer at [Meraki Labs](https://www.merakilabs.com/), [December 2023-January 2025]
+    - Pre-trained [small audio language models](https://huggingface.co/11mlabs/indri-0.1-124m-tts). This model aligned audio and text tokens into the same space, enabling TTS, ASR, and text-to-voice continuation from a single model.
+    - Spent time understanding the [audio domain](https://pypi.org/project/audiotoken/) and [how its modeling works](https://www.indrivoice.ai/blog/2024-11-19-audio-modelling).
+    - Developed [custom GPU kernels](https://github.com/indri-voice/vit.triton) in Triton to accelerate inferencing and [researched inference bottlenecks in the audio domain](https://github.com/romitjain/gpt-benchmark).
+    - Worked with Triton, CUDA C, and PyTorch.
 
-- epifi, [November 2020-October 2023]
-    - I worked as a Senior data scientist where I primarily trained and deployed real-time computer vision and machine learning models.
-    - This involved building infrastructure for real-time and batch models, like a ton of real-time feature engineering, optimizations for deploying deep learning and ML models with lower latency (TF lite, quantization, in memory DBs), and building observable services serving ML models.
-    - I worked extensively with Tensorflow, Docker, PySpark, Airflow, EFK stack, and the usual AWS stack.
+- Senior Data Scientist at [epifi](https://fi.money/), [November 2020-October 2023]
+    - Built customer-support call categorization pipelines using Whisper, Mistral 7B, and fine-tuned BERT.
+    - Trained and deployed real-time and batch fraud-detection models using computer vision and tree-based methods.
+    - Built infrastructure for real-time and batched feature engineering and optimized model deployment.
+    - Worked with Tensorflow, Docker, PySpark, Airflow, EFK stack, and the usual AWS stack.
 
-- Postman, [January 2018-November 2020]
-    - I worked as a Technical lead in the data science team and was the founding member of the data team.
-    - I built and designed several internal tools including.
-        - [Data APIs](https://medium.com/better-practices/api-driven-analytics-d980b28cb15e): This was my major work at Postman that helped Postman to be data-aware and data-driven.
-        - Data testing framework (Based on Looker and DBT) which checked the integration and correctness of data.
-    - [Knowledge Repository](https://blog.postman.com/how-postman-built-a-knowledge-repository/).
-    - I worked with SQL, Redshift, Looker, DBT, and PowerBI.
+- Technical Lead at [Postman](https://www.postman.com/), [January 2018-November 2020]
+    - Founding member of the data team; built an [analytics platform](https://medium.com/better-practices/api-driven-analytics-d980b28cb15e) supporting over 1,000 production dashboards.
+    - Architected data testing frameworks and data warehouse table design to power business analytics.
+    - Worked with SQL, Redshift, Looker, DBT, and PowerBI.
 
 - I was on the team that built the project [Panoptic](https://panoptic.in).
+
+## Places where I have talked about my work experience
+
+- Gave a talk on efficient inferencing at [AI Inference Meetup with NVIDIA](https://www.meetup.com/futureofdata-bangalore/events/306677681/).
+- Gave a demo on audio language models at [AI Tinkerers Bengaluru](https://bengaluru.aitinkerers.org/talks/rsvp_2eKJ-4Lkk5E) chapter.
+- Gave a workshop at [Fifth Elephant conference](http://has.gy/dQUb) on writing efficient Triton GPU Kernels.
+- Speaker at [2022 AWS ML Fridays series](https://pages.awscloud.com/ml-fridays-reg-2022.html) for fraud detection using Amazon SageMaker.
 
 ## A bit about what I love doing
 
