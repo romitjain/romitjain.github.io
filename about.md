@@ -11,7 +11,7 @@ Hello! I am Romit. I love building data-driven tools and products. I have `(Curr
 
 - ML engineer at [Sarvam.ai](https://www.sarvam.ai/), [February 2025-Present]
     - Currently working on pre-training vision encoders for sovereign vision language models.
-    - Led post-training quantization and inference optimization of [Sarvam-M, a 24B LLM](https://www.sarvam.ai/blogs/sarvam-m).
+    - Led post-training quantization and inference optimization of [Sarvam-M, a 24B LLM](https://www.sarvam.ai/blogs/sarvam-m) - Section 4 in the blog.
     - Built a highly fault-tolerant, scalable central store for pre-training datasets using WebDatasets.
     - Worked with TensorRT LLM, vLLM, WebDatasets, and K8s.
 
