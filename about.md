@@ -9,8 +9,12 @@ Hello! I am Romit. I love building data-driven tools and products. I have `(Curr
 
 ## A bit about my experience
 
-- ML engineer at [Sarvam.ai](https://www.sarvam.ai/), [February 2025-Present]
-    - Currently working on pre-training vision encoders for sovereign vision language models.
+- Research engineer at [IBM Research India](https://research.ibm.com/), [June 2025-Present]
+    - Working on [fms stack](https://github.com/foundation-model-stack) with improvements contributed to the huggingface ecosystem (transformers, peft, accelerate library)
+    - Working on improving post training of models via self play and updated model states
+    - Worked on building a PyTorch native online dynamic reward based data mixing framework, that got accepted to PyTorch Conference ’25 (Poster)
+- ML engineer at [Sarvam.ai](https://www.sarvam.ai/), [February 2025-June 2025]
+    - Worked on pre-training vision encoders for sovereign vision language models.
     - Led post-training quantization and inference optimization of [Sarvam-M, a 24B LLM](https://www.sarvam.ai/blogs/sarvam-m) - Section 4 in the blog.
     - Built a highly fault-tolerant, scalable central store for pre-training datasets using WebDatasets.
     - Worked with TensorRT LLM, vLLM, WebDatasets, and K8s.

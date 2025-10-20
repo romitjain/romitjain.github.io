@@ -41,5 +41,5 @@ Possible research avenues
 
 The kind of impact I want to have
 
-1. The framework should facilitate critical flows like model training and large-scale inferencing, and should help save money based on the optimizations  
-2. The framework helps in building real products that have an edge, specifically because of the optimizations and resilience
+1. My work should facilitate critical flows like model training and large-scale inferencing, and should help save money based on the optimizations  
+2. My work should help in building real products that have an edge, specifically because of the optimizations and resilience
