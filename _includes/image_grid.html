@@ -1,0 +1,47 @@
+{% comment %}
+  Usage: {% include image_grid.html images=page.images %}
+  Or directly in markdown:
+  {% include image_grid.html images="path/to/image1.jpg,path/to/image2.jpg,path/to/image3.jpg" %}
+{% endcomment %}
+
+<div class="image-grid">
+  {% if include.images %}
+    {% assign image_array = include.images | split: ',' %}
+    {% for image in image_array %}
+      <div class="image-grid-item">
+        <img src="{{ image | strip }}" alt="Grid image {{ forloop.index }}" loading="lazy">
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>
+
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.image-grid-item {
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.image-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-grid-item img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+</style> 

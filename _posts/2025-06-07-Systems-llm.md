@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is Systems for LLM
-category: [notes-to-self]
+category: [notes-to-self, gpus]
 date: 2025-06-07
 ---
 

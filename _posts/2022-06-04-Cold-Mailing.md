@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Short guide to cold mailing
-category: learnings
+category: [learnings]
 date: 2022-06-04
 ---
 

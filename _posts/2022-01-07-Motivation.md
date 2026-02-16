@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why this website
-category: introduction
+category: [introduction]
 date: 2022-01-07
 ---
 

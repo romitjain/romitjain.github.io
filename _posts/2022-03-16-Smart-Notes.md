@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to take smart notes
-category: book-notes
+category: [book-notes]
 date: 2022-03-16
 ---
 

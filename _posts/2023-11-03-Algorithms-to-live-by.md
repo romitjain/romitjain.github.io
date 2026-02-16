@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms to live by
-category: book-notes
+category: [book-notes]
 date: 2023-11-03
 ---
 

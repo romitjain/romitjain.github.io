@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Good Resumes
-category: diy-productivity
+category: [diy-productivity]
 date: 2024-04-13
 ---
 

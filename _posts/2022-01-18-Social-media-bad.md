@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Social media bad
-category: thoughtful-ramblings
+category: [thoughtful-ramblings]
 date: 2022-01-18
 ---
 

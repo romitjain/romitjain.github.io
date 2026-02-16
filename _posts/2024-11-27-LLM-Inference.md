@@ -1,8 +1,8 @@
 ---
 layout: post
 title: LLM Inference Part 1
-category: [research-papers, llms]
-date: 2024-11-28
+category: [research-papers, llms, gpus, llm-optimization]
+date: 2024-11-27
 ---
 
 This is an ever evolving post on LLM inference (mostly on GPUs). It covers references/explainations around these topics:
