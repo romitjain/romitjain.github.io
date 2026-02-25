@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Succession planning
-category: learnings
+category: [learnings]
 date: 2022-06-04
 ---
 

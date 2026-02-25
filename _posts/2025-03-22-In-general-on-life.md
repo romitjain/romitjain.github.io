@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In general on life
-category: []
+category: [thoughtful-ramblings]
 date: 2025-03-22
 ---
 
@@ -19,6 +19,7 @@ These are the collection of quotes/articles/books/videos that have changed/reinf
 - On giving it your all [RaFa](https://www.youtube.com/watch?v=-GGG1ZVoFWs)
 - On learning: [Shortifcation of learning](https://x.com/karpathy/status/1756380066580455557) and [How to Learn Better in the Digital Age](https://giansegato.com/essays/edutainment-is-not-learning)
 - On competing: [Dont compete by Paras Chopra](https://x.com/paraschopra/status/1903698445489127804)
+- On deferred gratification: [On deferred gratification](https://writing.nikunjk.com/p/on-deferred-gratification)
 - Book: Thinking Fast and Slow
 - Book: Four thousand weeks
 - Book: Antifragile

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ultralearning
-category: book-notes
+category: [book-notes]
 date: 2022-04-12
 ---
 

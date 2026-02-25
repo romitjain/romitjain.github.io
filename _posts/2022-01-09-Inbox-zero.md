@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inbox zero and mail categorization
-category: diy-productivity
+category: [diy-productivity]
 date: 2022-01-09
 ---
 
