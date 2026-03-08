@@ -444,6 +444,34 @@ Done
 
 In both the above scenarios, as long as we have added one of the tied layers (it works when both are added too ^_^), `ensure_weight_tying` would enable  parameter sharing for LoRA adapters as well as wrapper over tied layers. All the tied layers receive the same updates during training and the weight tying remains consistent after training.
 
+## Empirical evidence
+
+To test whether this also affects real fine-tuning, I asked claude code to run a small experiment on `Qwen2.5-0.5B` with `tatsu-lab/alpaca` (5,000 train / 500 eval):
+
+1. Add new tokens to the embedding layer.
+2. Train with `embed_tokens` in `modules_to_save` under two settings:
+   1. (`fixed`) `ensure_weight_tying == True`
+   2. (`broken`) `ensure_weight_tying == False`
+3. Train a baseline model with no added tokens.
+
+From the results, we see:
+
+1. Both train and eval loss are lower for the `fixed` run than the `broken` run.
+
+![[../assets/images/train_loss.png]]
+
+![[../assets/images/eval_loss.png]]
+
+2. New-token perplexity is much lower in the `fixed` run: `1.16` vs `3810.89` (`~3274x` lower).
+
+![[../assets/images/final_ppxl.png]]
+
+3. The `fixed` model generates sequences with the new tokens much more reliably (`49/50` strict structural matches vs `0/50` for `broken`).
+
+These results support the `ensure_weight_tying` flag.
+
+The complete code and additional analysis are in the [GitHub repo](https://github.com/romitjain/lora-weight-tying-exp), and the training metrics are on [Trackio](https://rom7-lora-weight-tying.hf.space?project=lora-weight-tying&runs=broken%2Cfixed&sidebar=hidden&navbar=hidden).
+
 ## References
 
 Here's the gist for the code I used on this post:

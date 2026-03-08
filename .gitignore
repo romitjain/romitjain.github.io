@@ -10,3 +10,4 @@ tmp/*
 
 **/_local/**
 !**/_local/.gitkeep
+.claude

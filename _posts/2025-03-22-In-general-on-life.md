@@ -29,3 +29,4 @@ These are the collection of quotes/articles/books/videos that have changed/reinf
 - > As long as you are showing up everyday and just working on the highest priority items for you, you'll be good. Don't be overwhelmed by the plethora of the tasks available to you. Just show up, prioritize and do the top things
 - > Big ambitions, low expectations, and high standards are a powerful combination for living your best life.
 - [Advice for good life, by Charlie Munger](https://www.youtube.com/watch?v=lqqRzNC3QyU)
+    - To get what you want in life, you must deserve it. If you want a specific outcome in life, you must have the lifestyle that creates that outcome long before you reach it.
