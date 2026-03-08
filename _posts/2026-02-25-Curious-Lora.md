@@ -458,13 +458,13 @@ From the results, we see:
 
 1. Both train and eval loss are lower for the `fixed` run than the `broken` run.
 
-![[../assets/images/train_loss.png]]
+![image](/assets/images/train_loss.png)
 
-![[../assets/images/eval_loss.png]]
+![image](/assets/images/eval_loss.png)
 
 2. New-token perplexity is much lower in the `fixed` run: `1.16` vs `3810.89` (`~3274x` lower).
 
-![[../assets/images/final_ppxl.png]]
+![image](/assets/images/final_ppxl.png)
 
 3. The `fixed` model generates sequences with the new tokens much more reliably (`49/50` strict structural matches vs `0/50` for `broken`).
 

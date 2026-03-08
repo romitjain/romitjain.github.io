@@ -47,7 +47,7 @@ One of the popular techniques to achieve weight+activation quantization is Smoot
 
 $Y = xW$ is same as $Y = (0.1x)(10W)$
 
-![[../assets/images/smooth_quant.png]]
+![image](/assets/images/smooth_quant.png)
 
 ## Implementations
 
