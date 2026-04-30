@@ -67,7 +67,7 @@ I have created a filter for each category
 
 ### Use snooze
 
-Read about the snooze feature in Gmail [here](https://support.google.com/mail/answer/7622010?hl=en&co=GENIE.Platform%3DDesktop).
+Read about the snooze feature in Gmail in the [official Gmail help doc](https://support.google.com/mail/answer/7622010?hl=en&co=GENIE.Platform%3DDesktop).
 
 The filters take care of 95% of my emails. For the rest of my mails, I do either of these things:
 
@@ -93,4 +93,4 @@ Here’s a snapshot of mails that are auto categorized by filters and moved to A
 
 ## Reference
 
-- I was inspired to write this article after reading one by Dr. Devi Parikh [here](https://deviparikh.medium.com/checking-email-to-inbox-zero-e00d478cdd4b)
+- I was inspired to write this article after reading Dr. Devi Parikh's post, [Checking Email to Inbox Zero](https://deviparikh.medium.com/checking-email-to-inbox-zero-e00d478cdd4b)

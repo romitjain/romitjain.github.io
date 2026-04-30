@@ -65,7 +65,7 @@ Framework implementation of performing inference with a weight (and weights+acti
 1. [vLLM vs TensorRT on weight only quantization](https://medium.com/squeezebits-team-blog/vllm-vs-tensorrt-llm-6-weight-only-quantization-0fbd73f3b597)
 2. [vLLM vs TensorRT on weight activation quantization](https://medium.com/squeezebits-team-blog/vllm-vs-tensorrt-llm-7-weight-activation-quantization-331cf9eadc0d)
 
-If the model is operating in the compute bound region (eg: during pre fill, high batch size), weight quantization does not help much. The model loads the weights only once and does large number of computations. For these computations, the kernel needs to de quantize the model weights which are quantized. This step adds a computational overhead. 
+If the model is operating in the compute bound region (eg: during pre fill, high batch size), weight quantization does not help much. The model loads the weights only once and does large number of computations. For these computations, the kernel needs to de quantize the model weights which are quantized. This step adds a computational overhead.
 
 ## Performance examples
 

@@ -5,7 +5,7 @@ category: [ml-ops, tech]
 date: 2022-05-15
 ---
 
-# Apache Hudi
+## Apache Hudi
 
 ### Basics
 
@@ -13,8 +13,8 @@ date: 2022-05-15
 - Apache HUDI is a file format that offers a way to handle updates, deletes and ACID properties on the dataset.
 - These functionality is not present in other file based storage like Parquet/ORC.
 - Also helps with
-	- Data versioning
-	- Rollback
+       - Data versioning
+       - Rollback
 
 ### Upserts
 
@@ -23,17 +23,20 @@ date: 2022-05-15
 ### Queries
 
 There are 2 different types of query
+
 1. Snapshot queries: Latest data
 2. Incremental queries: Queries data after a given commit time
 
 ### Table types
 
 There are 2 different types of table types
+
 1. Copy on write: Stores in parquet and performs sync merge during write
 2. Merge on Read: Columnar (eg: Parquet)+ Row (eg: Avro)
-	1. Updates are written in delta files
-	2. Mostly used for NRT or real time
+    1. Updates are written in delta files
+    2. Mostly used for NRT or real time
 
 ### References
-1. https://medium.com/@parth09/apache-hudi-the-basics-5c1848ca12e0
-2. https://medium.com/apache-hudi-blogs/employing-the-right-indexes-for-fast-updates-deletes-in-apache-hudi-814d863635f6
+
+1. <https://medium.com/@parth09/apache-hudi-the-basics-5c1848ca12e0>
+2. <https://medium.com/apache-hudi-blogs/employing-the-right-indexes-for-fast-updates-deletes-in-apache-hudi-814d863635f6>

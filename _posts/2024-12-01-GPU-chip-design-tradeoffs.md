@@ -6,7 +6,7 @@ date: 2024-12-01
 ---
 
 
-# GPU chip design tradeoffs
+## GPU chip design tradeoffs
 
 ## CPUs
 
@@ -25,4 +25,3 @@ Second change is that we reduce the size of cores so that we can add a lot of co
 3. CUDA is compiled via clang of nvcc which emits PTX (parallel thread execution) which is a high level assembly code. PTX is compile via another closed source compiler which is in control with Nvidia
 
 One major improvement that is done on GPUs is that each cores have hyper threads upto 64 in comparison to 2 on CPUs. So if a single thread is waiting to load data from the GPU memory (given cache is small), another thread on the same core can execute an arithmetic operation. This is based on the assumption that we have a lot of threads running in parallel on GPU.
-

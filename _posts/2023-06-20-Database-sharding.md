@@ -17,7 +17,7 @@ Example:
 * 1 master and 2 slave nodes will be responsible for 25 rows considering we added 2 read replicas
 * We will have a total of 4 master nodes and 8 slave nodes all working in a distributed fashion
 
-### Difference from partitioning 
+### Difference from partitioning
 
 Database servers are sharded while the data is partitioned (specific keys moving to a specific shard).
 
@@ -38,7 +38,7 @@ One of the major disadvantages of having a sharded and partitioned database is c
 
 #### Vertical sharding
 
-In vertical sharding, you typically move different tables in different shards. The application has to take care of which shard to hit for which table. This gets complex when we want to move a table from one shard to another. 
+In vertical sharding, you typically move different tables in different shards. The application has to take care of which shard to hit for which table. This gets complex when we want to move a table from one shard to another.
 This also gets complex from application PoV, because now the application also needs to know the sharding logic of the DB. Out of this need, [Vitess](https://vitess.io/docs/15.0/overview/history/) was born which allows us to decouple application from DB sharding.
 
 ### To read

@@ -5,7 +5,7 @@ category: [deep-learning]
 date: 2023-07-17
 ---
 
-# Batchnorm
+## Batchnorm
 
 1. Used to reduce the shift of values in each layer in deep learning network
 2. Calculate $\mu$ and $\sigma$ of each feature in a mini batch

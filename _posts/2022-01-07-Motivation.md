@@ -20,7 +20,7 @@ I have two major goals with this website.
 1. Avoid myself from fooling myself that I understand a topic
 2. Write a note to me reminding me of important things
 
-You can learn more about me [here](/about).
+You can learn more about me on the [about page](/about).
 
 ## Inspiration for this website
 
