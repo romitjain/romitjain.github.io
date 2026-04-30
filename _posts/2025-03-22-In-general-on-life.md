@@ -28,3 +28,5 @@ These are the collection of quotes/articles/books/videos that have changed/reinf
 - > Creativity: Here's my guess as to why: Once you've generated enough bad output, your mind starts to reflexively identify which elements caused the badness. Then it begins to avoid them. You start pattern-matching novel ideas with greater intuition.
 - > As long as you are showing up everyday and just working on the highest priority items for you, you'll be good. Don't be overwhelmed by the plethora of the tasks available to you. Just show up, prioritize and do the top things
 - > Big ambitions, low expectations, and high standards are a powerful combination for living your best life.
+- [Advice for good life, by Charlie Munger](https://www.youtube.com/watch?v=lqqRzNC3QyU)
+    - To get what you want in life, you must deserve it. If you want a specific outcome in life, you must have the lifestyle that creates that outcome long before you reach it.
