@@ -28,7 +28,7 @@ The tracing is done once and stored as a graph. It can be reused for future inpu
 
 ### Graph breaks
 
-One requirement of Dynamo tracing is that it needs to have a fixed path through code. But sometimes during tracing, it can encounter scenarios where the code is dependent on runtime conditions. In such scenarios, Dynamo cannot trace the program into a single computational graph. It introduces a **graph break** in such scenarios. When this happens, Dynamo "breaks" the graph, compiles what it has so far, and falls back to eager Python execution.
+One requirement of Dynamo tracing is that it needs to have a fixed path through code. But sometimes during tracing, it can encounter scenarios where the code is dependent on runtime conditions. In such scenarios, Dynamo cannot trace the program into a single computational graph. It introduces a **graph break**. When this happens, Dynamo "breaks" the graph, compiles what it has so far, and falls back to eager Python execution.
 
 ```txt
 Code with graph break:
@@ -37,13 +37,13 @@ def forward(x):
     y = x * 2              # ─┐
     z = y + 1              #  ├─> Graph 1 (compiled)
     print(z)               # ─┘ GRAPH BREAK (side effect)
-    w = z * 3              # ─┐
-    return w               # ─┘─> Graph 2 (compiled)
+    w = z * 3              #
+    return w               #
 
 Execution: compiled → eager (print) → compiled
 ```
 
-**Common causes**
+**Common causes of graph breaks**
 
 | Cause                       | Example                         | Why it breaks                   |
 | --------------------------- | ------------------------------- | ------------------------------- |
@@ -52,7 +52,9 @@ Execution: compiled → eager (print) → compiled
 | Dynamic structure           | `for i in range(x.item()):`     | Loop count unknown              |
 | Type coercion               | `int(tensor)`, `float(tensor)`  | Forces GPU to CPU transfer      |
 
-Why does data-dependent control flow induce a graph break? Dynamo traces the code with a specific input (eg: `x=[1, 2, 3]`). In practice this is done with a [Fake tensor](https://docs.pytorch.org/docs/stable/user_guide/torch_compiler/torch.compiler_fake_tensor.html), which carries only metadata (shape, dtype, device) and no actual data, which is precisely why constructs like `x.item()` or `x.sum() > 0` force a break (there is no real value to read). During tracing, a particular flow can be triggered, for example in this code:
+Why does data-dependent control flow induce a graph break? Dynamo traces the code with a [Fake tensor](https://docs.pytorch.org/docs/stable/user_guide/torch_compiler/torch.compiler_fake_tensor.html), which carries only metadata (shape, dtype, device) and no actual data since data is a runtime attribute of the tensor. That is why constructs that depend on actual data like `x.item()` or `x.sum() > 0` force a break (there is no real value to read).
+
+During tracing, a particular flow can be triggered, for example in this code:
 
 ```python
 def forward(x):
@@ -107,7 +109,7 @@ else:
     return graph_small(x)
 ```
 
-Dynamo provides explicit control in defining which dimension of the input should be treated as symbolic. When we mark a dimension as dynamic, Dynamo uses a symbol (`s0`) instead of a concrete value. But it may still add **guards**:
+Dynamo provides explicit control in defining which dimension of the input should be treated as dynamic. When we mark a dimension as dynamic, Dynamo uses a symbol (`s0`, aka symbolic shape) instead of a concrete value. But it may still add **guards**:
 
 Example
 
@@ -172,9 +174,7 @@ After:   [submod_0: norm] -> [submod_1: attn_a + attn_b] -> [submod_2: mlp]
                                     (both eager)
 ```
 
-The ops that can split the graph can be controlled via config. vLLM re-implements crucial ops like SiLU and RMSNorm, but they still remain compile-friendly.
-
-Usually, vLLM runs attention-related ops in eager mode. Within a batch, sequences have different lengths, so many shape-dependent decisions happen at runtime, which makes attention hard to capture in a single static graph. Nevertheless, vLLM implements very efficient kernels for attention. The attention op is registered as a custom op with a fake/meta implementation, which is what allows Dynamo to trace through it without breaking. In the final graph, attention is just treated as a black box.
+The ops that can split the graph can be controlled via config. Usually, vLLM runs attention-related ops in eager mode. Within a batch, sequences have different lengths, so many shape-dependent decisions happen at runtime, which makes attention hard to capture in a single static graph. Nevertheless, vLLM implements very efficient kernels for attention. 
 
 During compilation, vLLM compiles for various static and dynamic shapes and caches the output of `torch.compile`. This on-disk cache holds the Inductor-compiled artifacts (Triton kernels, etc.) and can be reused for faster startup of new services serving the same model. CUDA graphs are a separate, runtime-only mechanism: they are captured per-process for compiled pieces at different batch sizes and are not portable across processes.
 
@@ -262,7 +262,7 @@ Step 2: Subsequent forward passes
 No recompilation on the serving path for supported shapes/configurations.
 ```
 
-This is the core idea: vLLM uses `torch.compile` where compilation gives predictable wins, keeps attention and other unsafe regions outside compiled graphs when needed, specializes hot batch sizes, and replays cached CUDA graphs to reduce runtime overhead. Piecewise compilation is what makes `torch.compile` viable for a workload as dynamic as LLM serving.
+vLLM uses `torch.compile` where compilation gives predictable wins, keeps attention and other unsafe regions outside compiled graphs when needed, specializes hot batch sizes, and replays cached CUDA graphs to reduce runtime overhead. Piecewise compilation is what makes `torch.compile` viable for a workload as dynamic as LLM serving.
 
 ## References
 

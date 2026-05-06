@@ -22,5 +22,12 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "_posts/_local"
+    values:
+      sitemap: false
 
 goat_counter: true

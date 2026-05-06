@@ -7,9 +7,17 @@ layout: default
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+    {%- assign words = content | number_of_words -%}
+    {%- assign minutes = words | divided_by: 200 -%}
+    {%- if minutes < 1 -%}{%- assign minutes = 1 -%}{%- endif -%}
+    &nbsp;&nbsp;~{{ minutes }} min read
   </p>
-  
+
   <h1>{{ page.title }}</h1>
+
+  {%- unless page.toc == false -%}
+    <nav id="toc-container" aria-label="Table of contents"></nav>
+  {%- endunless -%}
 
   {{ content }}
 </article>

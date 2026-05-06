@@ -46,6 +46,8 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.7.1)
       jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-tidy (0.2.2)
       htmlbeautifier
       htmlcompressor
@@ -91,6 +93,7 @@ DEPENDENCIES
   csv (~> 3.3)
   jekyll
   jekyll-feed (~> 0.12)
+  jekyll-sitemap
   jekyll-tidy
   kramdown-parser-gfm
   logger (~> 1.7)

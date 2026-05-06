@@ -8,6 +8,7 @@ gem "kramdown-parser-gfm"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-tidy"
+  gem "jekyll-sitemap"
 end
 
 gem "webrick", "~> 1.7"
