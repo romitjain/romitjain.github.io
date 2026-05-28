@@ -135,6 +135,9 @@ For a given model architecture, the hidden dimension is fixed and thus can be tr
 >
 > The exact guards have shifted across PyTorch versions. If any of these conditions fail at runtime, a recompilation is triggered.
 
+
+There's an amazing [article](https://x.com/abhi9u/status/2042255269087056265) by Abhinav Upadhyay, where you can know more about the particulars of tracing.
+
 ## vLLM integration with torch.compile
 
 Now, armed with the knowledge of Dynamo tracing, graph breaks, guards and dynamic shape support for compilation, we can understand how vLLM uses `torch.compile`.
