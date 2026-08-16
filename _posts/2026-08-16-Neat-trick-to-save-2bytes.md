@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Neat trick to save 2 bytes!
+title: How to save 2 bytes in LLM training
 category: [llm-optimization]
 date: 2026-08-16
 ---
 
-There's a free lunch hiding in LLM training optimization. It’s a neat little trick that saves 2 bytes per parameter during BF16 mixed-precision training.
+There's a free lunch hiding in LLM training optimization. It’s a trick that saves 2 bytes per parameter during BF16 mixed-precision training.
 
 ## Parameter memory
 
